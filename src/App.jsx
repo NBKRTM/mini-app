@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 export default function App() {
   const [time, setTime] = useState("");
 
+
+
   useEffect(() => {
     const interval = setInterval(() => {
       const now = new Date();
